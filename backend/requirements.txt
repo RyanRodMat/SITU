@@ -35,3 +35,6 @@ pip install "fastapi[standard]"
 
 isso já instala o Uvicorn e o Pydantic"
 
+"Também usaremos o SQLalchemy para gerenciar o banco de dados:"
+"pip install sqlalchemy: rode no terminal"
+
