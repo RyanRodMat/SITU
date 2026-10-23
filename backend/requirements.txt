@@ -1,0 +1,37 @@
+"Para rodar o projeto em sua máquina, precisa instalar o Python (3.15.1) e a FastAPI"
+
+"Link para intalar o python: https://www.python.org/downloads/"
+
+
+"O que o FastAPI faz de principal?
+
+• Criação de APIs em Python: Permite receber requisições HTTP (como GET, POST, PUT, DELETE) 
+e retornar dados (geralmente em formato JSON).
+
+• Alto desempenho: É um dos frameworks Python mais rápidos que existem, 
+com velocidade comparável ao Node.js e Go, graças ao uso do Starlette (para a parte web) e do Pydantic (para a parte de dados).
+
+• Suporte nativo a código assíncrono (async/await): Permite lidar com várias requisições simultâneas 
+sem deixar o servidor ocioso esperando por respostas do banco de dados ou de outras APIs.
+
+• Validação automática de dados: Utiliza as dicas de tipo (type hints) do Python e o Pydantic para validar, 
+converter e documentar os dados enviados e recebidos automaticamente. 
+Se o usuário enviar um dado errado, o FastAPI rejeita a requisição e explica o erro sozinho.
+
+• Documentação interativa automática: Gera sozinho a documentação da sua API nos padrões OpenAPI
+(com interfaces visuais prontas para uso no navegador, como o Swagger UI em /docs e o ReDoc em /redoc).
+
+• Agilidade no desenvolvimento: Reduz o tempo de codificação em até 300% e diminui erros humanos de programação 
+em comparação a frameworks mais antigos"
+
+"Para instalar a FastAPI na sua máquina, primeiro crie um ambiente venv
+(O ambiente venv é um módulo nativo do python usado para criar ambientes isolados que não interferem no python global da máquina
+ou com outros projetos)
+
+python -m venv venv
+#Linux e MacOS: source venv/bin/activate      
+# Windows: venv\Scripts\activate
+pip install "fastapi[standard]"
+
+isso já instala o Uvicorn e o Pydantic"
+
